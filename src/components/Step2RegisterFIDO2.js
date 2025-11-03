@@ -1,11 +1,20 @@
-import React from 'react';
-export default function Step2RegisterFIDO2({onDone}) {
+import React from "react";
+
+export default function Step2RegisterFIDO2({ onNext }) {
   return (
     <div>
-      <h2>Paso 2 — Registrar FIDO2 o Microsoft Authenticator</h2>
-      <p>Siga la guía de la empresa para registrar su llave FIDO2 o la app Microsoft Authenticator.</p>
-      <p><a href="https://learn.microsoft.com/azure/active-directory/authentication/howto-authentication-passwordless-enable" target="_blank" rel="noreferrer">Guía oficial de Passwordless</a></p>
-      <button className="btn" onClick={onDone}>He completado el registro</button>
+      <h2>2️⃣ Registra tu método Passwordless</h2>
+      <p>Abre la app Authenticator o conecta tu llave de seguridad FIDO2.</p>
+      <button onClick={onNext} style={btnStyle}>He completado este paso</button>
     </div>
   );
 }
+
+const btnStyle = {
+  backgroundColor: "#f36f21",
+  color: "white",
+  padding: "10px 20px",
+  border: "none",
+  borderRadius: "8px",
+  cursor: "pointer",
+};
