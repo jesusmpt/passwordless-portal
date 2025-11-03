@@ -1,0 +1,8 @@
+body { font-family: Arial, Helvetica, sans-serif; background:#fff; color:#222; }
+.container { max-width:900px; margin:40px auto; padding:24px; border-radius:10px; background:#ffffff; box-shadow:0 6px 18px rgba(0,0,0,0.06); }
+header h1 { color:#ff7f2a; margin-bottom:8px; }
+.center { text-align:center; padding:30px 0; }
+.btn { background:#ff7f2a; color:#fff; border:none; padding:10px 18px; border-radius:8px; cursor:pointer; font-weight:600; }
+.welcome { color:#333; font-size:16px; margin-top:6px; }
+.message { margin-top:8px; color:#444; }
+footer { margin-top:26px; font-size:12px; color:#666; text-align:center; }
